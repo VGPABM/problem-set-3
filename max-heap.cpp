@@ -31,7 +31,6 @@ void heapmaker(int arr[], int N, int i)
         heapmaker(arr, N, largest);
     }
 }
-
 void buildHeap(int arr[], int N)
 {
     // Index of last non-leaf node
